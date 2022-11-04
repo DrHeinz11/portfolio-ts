@@ -6,7 +6,7 @@ function App() {
   const [navState, setNavState] = useState(false);
   return (
     <>
-      <main className="bg-black min-h-screen overflow-hidden">
+      <main className="bg-bgGray min-h-screen overflow-hidden">
         <div className="mx-auto ">
           <Navbar />
           <Home/>
