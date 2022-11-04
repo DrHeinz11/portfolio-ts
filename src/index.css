@@ -6,6 +6,28 @@
   -webkit-text-stroke: 2px currentColor;
   -webkit-text-fill-color: transparent;
 }
+
+.svg__position {
+  align-self: center;
+  position: relative;
+  top: 4rem;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: translateY(-70px);
+  }
+  to {
+    transform: translateY(50px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .svg__animation {
+    animation: logo-spin infinite 2s ease-in;
+  }
+}
+
 :root {
   color-scheme: light dark;
 
