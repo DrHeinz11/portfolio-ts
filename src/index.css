@@ -13,7 +13,7 @@
   top: 4rem;
 }
 
-@keyframes logo-spin {
+@keyframes arrow-down {
   from {
     transform: translateY(-70px);
   }
@@ -24,10 +24,25 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .svg__animation {
-    animation: logo-spin infinite 2s ease-in;
+    animation: arrow-down infinite 2s ease-in;
   }
 }
 
+
+/* @keyframes stamp-spin {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .letter__stamp {
+    animation: stamp-spin infinite 2s linear;
+  } 
+} */
 :root {
   color-scheme: light dark;
 

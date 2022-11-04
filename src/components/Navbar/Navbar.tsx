@@ -7,7 +7,7 @@ import { dataNavigation } from "../../constant/dataNavigation";
 
 const Navbar: FC = () => {
   return (
-    <nav className="flex flex-row gap-4 justify-between items-center p-4 md:p-0 md:py-4 md:px-2">
+    <nav className="flex flex-row gap-4 justify-between items-center p-1 py-2 md:p-0 md:py-4 md:px-2">
       <Link href="/">
         <img
           src={Icon}

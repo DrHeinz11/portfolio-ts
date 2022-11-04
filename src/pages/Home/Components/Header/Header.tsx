@@ -1,5 +1,4 @@
 import ScrollToExplore from "../../../../components/icon/ScrollToExplore";
-import HeaderFigure from "./HeaderFigure";
 import HeaderLinks from "./HeaderLinks";
 
 const Header = () => {
@@ -17,11 +16,6 @@ const Header = () => {
         </div>
         <HeaderLinks />
         <ScrollToExplore />
-      </div>
-      <div className="flex flex-col gap-4 text-start text-white text-serif font-medium text-2xl uppercase">
-        <h3 className='px-2'>About Me</h3>
-        <hr />
-        <HeaderFigure />
       </div>
     </header>
   );

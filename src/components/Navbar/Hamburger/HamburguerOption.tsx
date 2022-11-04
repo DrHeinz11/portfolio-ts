@@ -6,7 +6,7 @@ import { dataNavigation } from "../../../constant/dataNavigation";
 
 const HamburgerOption: FC = () => {
   return (
-    <div className="flex flex-row gap-4 h-screen absolute top-0 left-0 right-0 backdrop-blur-lg ">
+    <div className="flex flex-row gap-4 min-h-[100vh] absolute top-0 left-0 right-0 backdrop-blur-xl ">
       <HamburgerClose  />
       <nav className="flex flex-col py-14 w-full h-full items-center gap-4 text-center">
         {dataNavigation.map((element) => (

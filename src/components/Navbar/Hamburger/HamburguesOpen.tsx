@@ -1,14 +1,11 @@
 import { FC } from 'react';
 const HamburgerOpen: FC = (props) => (
-  <svg
-    data-name="Componente 2 \u2013 1"
-    xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={34}
-    {...props}
-  >
-    <path fill="#ffa461" d="M0 0h48v6H0zM0 14h48v6H0zM0 28h48v6H0z" />
+  <svg width="40" height="10" viewBox="0 0 40 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="5" cy="5" r="5" fill="#ED743D" />
+    <circle cx="20" cy="5" r="5" fill="#ED743D" />
+    <circle cx="35" cy="5" r="5" fill="#ED743D" />
   </svg>
+
 );
 
 export default HamburgerOpen;

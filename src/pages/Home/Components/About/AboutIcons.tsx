@@ -1,10 +1,17 @@
-import React from 'react'
+import { FC } from 'react'
+import { Github, Linkdin } from '../../../../components'
+import IconsBox from './IconsBox'
 
-type Props = {}
+type dataIcon = Array<{ text: string, icon: JSX.Element, id: number }>
+const dataIcon: dataIcon = [{ text: 'hola', icon: <Github />, id: 22 }, { text: 'hola', icon: <Linkdin />, id: 22 }]
 
-const AboutIcons = (props: Props) => {
+const AboutIcons: FC = (props) => {
   return (
-    <div>AboutIcons</div>
+    <div className="grid-cols-iconsContainer grid items-end">
+      {dataIcon.map(element => <IconsBox key={element.id} name={element.text}>
+        {element.icon}
+      </IconsBox>)}
+    </div>
   )
 }
 

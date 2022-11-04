@@ -9,8 +9,13 @@ module.exports = {
       colors: {
         main: "#ed743d",
         bgGray: "#1b1b1b",
-        lightGray: "#f0f0f0",
+        lightGray: "#1e1e1e",
       },
+      gridTemplateColumns: {
+        iconsContainer: "repeat(auto-fit,minmax(68px,1fr))",
+      },
+      dropShadow: {
+        'custom': '0 35px 35px rgba(255,255,255 0.5)',}
     },
   },
   plugins: [],
