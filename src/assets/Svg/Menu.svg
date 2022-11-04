@@ -1,0 +1,5 @@
+<svg id="Menu" xmlns="http://www.w3.org/2000/svg" width="48" height="34" viewBox="0 0 48 34">
+  <rect id="menu_1" width="48" height="6" fill="#ffa461"/>
+  <rect id="menu__2" width="48" height="6" transform="translate(0 14)" fill="#ffa461"/>
+  <rect id="menu_3" width="48" height="6" transform="translate(0 28)" fill="#ffa461"/>
+</svg>

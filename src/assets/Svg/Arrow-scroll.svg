@@ -1,0 +1,18 @@
+<svg id="Arrow-scroll" xmlns="http://www.w3.org/2000/svg" width="87" height="83.349" viewBox="0 0 87 83.349">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ed743d;
+      }
+
+      .cls-2 {
+        font-size: 17px;
+        font-family: Montserrat;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <path id="bx-down-arrow-alt" class="cls-1" d="M39.666,1.365,36.043-2.258l-11,11V-22.4l-5.125,6.581V8.743l-11-11L5.293,1.365,22.48,18.552Z" transform="translate(23.055 22.403)"/>
+  <text id="Scroll_to_Explore" data-name="Scroll
+to Explore" class="cls-2" transform="translate(0 59.349)"><tspan x="0" y="0">Scroll</tspan><tspan x="0" y="20">to Explore</tspan></text>
+</svg>

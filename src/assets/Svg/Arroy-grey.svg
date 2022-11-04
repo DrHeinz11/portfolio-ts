@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #afafaf;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #afafaf;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Arroy-grey" transform="translate(-2330 -1615)">
+    <path id="bx-down-arrow-alt" class="cls-1" d="M43.293,3.873,39.287-.133,27.126,12.029V-22.4L21.46-15.127V12.029L9.3-.133,5.293,3.873l19,19Z" transform="translate(2350.207 1658.903)"/>
+    <g id="Elipse_1" data-name="Elipse 1" class="cls-2" transform="translate(2330 1615)">
+      <circle class="cls-3" cx="44" cy="44" r="44"/>
+      <circle class="cls-4" cx="44" cy="44" r="43"/>
+    </g>
+  </g>
+</svg>

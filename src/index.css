@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font__stroke {
+  -webkit-text-stroke: 2px currentColor;
+  -webkit-text-fill-color: transparent;
+}
+:root {
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* .grid__layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0px 0px;
+  max-width: 1300px;
+  padding: 1rem;
+  min-height: 75vh;
+  margin: 0px auto;
+  grid-template-areas:
+    "head__title head__title head__title head__title"
+    "stamp sub__title sub__title sub__title";
+}
+.head__title {
+  grid-area: head__title;
+  max-width: 100%;
+}
+.stamp {
+  grid-area: stamp;
+  max-width: 100%;
+}
+.sub__title {
+  grid-area: sub__title;
+  max-width: 100%;
+} */

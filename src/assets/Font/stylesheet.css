@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('neurialgrotesk-extrabold-webfont.woff2') format('woff2'),
+         url('neurialgrotesk-extrabold-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('neurialgrotesk-light-webfont.woff2') format('woff2'),
+         url('neurialgrotesk-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('neurialgrotesk-regular-webfont.woff2') format('woff2'),
+         url('neurialgrotesk-regular-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
