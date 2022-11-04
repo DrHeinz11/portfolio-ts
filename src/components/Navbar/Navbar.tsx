@@ -1,10 +1,11 @@
 import Icon from "../../assets/Svg/LogoBold.svg";
+import { FC } from 'react'
 import { Link } from "wouter";
-import { Hamburger } from "./Hamburger";
-import { datas } from "./Hamburger/HamburguerOption";
+import Hamburger from "./Hamburger/Hamburger";
 import NavLinks from "./NavLinks";
+import { dataNavigation } from "../../constant/dataNavigation";
 
-const Navbar = () => {
+const Navbar: FC = () => {
   return (
     <nav className="flex flex-row gap-4 justify-between items-center p-4 md:p-0 md:py-4 md:px-2">
       <Link href="/">
@@ -19,7 +20,7 @@ const Navbar = () => {
           className=" flex-row
       gap-8 w-full h-full items-center  text-center hidden md:flex"
         >
-          {datas.map((element) => (
+          {dataNavigation.map((element) => (
             <NavLinks props={element} key={element.id} />
           ))}
         </nav>

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState,FC } from "react";
 import HamburgerOpen from "./HamburguesOpen";
 import HamburgerOption from './HamburguerOption'
 
-const Hamburger = () => {
+const Hamburger:FC = () => {
   const [icon, setIcon] = useState(false);
   const handleSetIcon = () => setIcon(!icon);
 

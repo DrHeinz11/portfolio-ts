@@ -1,5 +1,7 @@
-const HamburgerClose = (props) => (
+import { FC } from 'react';
+const HamburgerClose: FC = (props) => (
   <svg
+    className="absolute right-4 top-4"
     data-name="Componente 2 \u2013 1"
     xmlns="http://www.w3.org/2000/svg"
     width={48}
