@@ -8,8 +8,10 @@ import { Logo } from '../icon';
 const Navbar: FC = () => {
   return (
     <nav className="flex flex-row gap-10 justify-between items-center p-4 md:p-0 md:py-6 md:px-8 border-b-2 border-black">
-      <Link href="/">
-        <Logo className={'w-16 md:w-20'} />
+      <Link href={"/"}>
+        <div className="">
+          <Logo className={'w-16 md:w-20'} />
+        </div>
       </Link>
       <div>
         <nav
@@ -20,12 +22,11 @@ const Navbar: FC = () => {
             <NavLinks props={element} key={element.id} />
           ))}
         </nav>
-
-        <div className="md:hidden">
-          <Hamburger />
-        </div>
+        <NavLinks props={{ navText: "Contact Me", navRoute: "/contact" }} />
       </div>
-      <NavLinks props={{ navText: "Contact Me", navRoute: "/contact" }} />
+      <div className="md:hidden">
+        <Hamburger />
+      </div>
     </nav>
   );
 };

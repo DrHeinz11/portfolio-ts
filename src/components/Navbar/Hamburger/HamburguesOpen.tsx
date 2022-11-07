@@ -1,10 +1,11 @@
 import { FC } from 'react';
 const HamburgerOpen: FC = (props) => (
-  <svg width="40" height="10" viewBox="0 0 40 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="5" cy="5" r="5" fill="#ED743D" />
-    <circle cx="20" cy="5" r="5" fill="#ED743D" />
-    <circle cx="35" cy="5" r="5" fill="#ED743D" />
-  </svg>
+  <button type="button" className="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-700 hover:bg-gray-900">
+
+    <svg className="block w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+    </svg>
+  </button>
 
 );
 

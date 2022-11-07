@@ -1,16 +1,11 @@
 import { FC } from 'react';
 const HamburgerClose: FC = (props) => (
-  <svg
-    className="absolute right-4 top-4"
-    data-name="Componente 2 \u2013 1"
-    xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={38.184}
-    {...props}
-  >
-    <path fill="#ed743d" d="M4.908 33.941 38.849 0l4.243 4.243L9.15 38.183z" />
-    <path fill="#ed743d" d="m9.151 0 33.941 33.941-4.243 4.243L4.91 4.243z" />
+
+  <svg className="absolute right-6 top-6" {...props} width="26" height="28" viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1 25.6482L25 1.64824" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M1 2.31371L25 26.3137" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
   </svg>
+
 );
 
 export default HamburgerClose;
