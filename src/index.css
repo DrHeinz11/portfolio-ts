@@ -2,11 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.font__stroke {
+.font-stroke {
   -webkit-text-stroke: 2px currentColor;
   -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
-
+.m-inline {
+  position: relative;
+  margin-inline-start: 12rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .m-inline {
+    animation: arrow-down infinite 35s forwards;
+  }
+}
 .svg__position {
   align-self: center;
   position: relative;
@@ -14,11 +23,14 @@
 }
 
 @keyframes arrow-down {
-  from {
-    transform: translateY(-70px);
+  0% {
+    transform: translateX(52rem);
   }
-  to {
-    transform: translateY(50px);
+  50% {
+    transform: translateX(-55rem);
+  }
+  100% {
+    transform: translateX(52rem);
   }
 }
 
@@ -27,7 +39,6 @@
     animation: arrow-down infinite 2s ease-in;
   }
 }
-
 
 /* @keyframes stamp-spin {
   from {

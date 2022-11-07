@@ -12,7 +12,7 @@ module.exports = {
         lightGray: "#1e1e1e",
       },
       gridTemplateColumns: {
-        iconsContainer: "repeat(auto-fit,minmax(68px,1fr))",
+        iconsContainer: "repeat(auto-fit,minmax(100px,1fr))",
       },
       dropShadow: {
         'custom': '0 35px 35px rgba(255,255,255 0.5)',}

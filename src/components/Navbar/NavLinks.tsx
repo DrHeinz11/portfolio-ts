@@ -5,12 +5,9 @@ const NavLinks: FC<navData> = ({ props: { navRoute, navText } }) => {
   return (
     <Link href={navRoute}>
       <a
-        className={`hover:text-main font-serif font-light text-4xl md:text-2xl color-lightGray ${navText !== "Contact"
-          ? "text-white focus:text-main"
-          : "text-main focus:text-orange-300"
-          } uppercase`}
+        className='text-xl'
       >
-        {navText}_
+        {navText}
       </a>
     </Link>
   );

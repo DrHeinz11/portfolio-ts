@@ -1,4 +1,18 @@
+export { default as Css3 } from './Css3';
+export { default as Figma } from './Figma';
+export { default as Git } from './Git';
 export { default as Github } from './Github';
 export { default as Gmail } from './Gmail';
+export { default as Html5 } from './Html5';
+export { default as JavaScript } from './JavaScript';
 export { default as Linkdin } from './Linkdin';
+export { default as Logo } from './Logo';
+export { default as React } from './React';
+export { default as Sass } from './Sass';
+export { default as ScrollToExplore } from './ScrollToExplore';
 export { default as Stamp } from './Stamp';
+export { default as Tailwind } from './Tailwind';
+export { default as Terminal } from './Terminal';
+export { default as TypeScript } from './TypeScript';
+export { default as VisualStudio } from './VisualStudio';
+export * from './index';
