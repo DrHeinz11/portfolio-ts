@@ -1,17 +1,17 @@
 import { useState } from "react";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
-import Home from "./pages/Home/Home";
+import Routes from "./routes/Routes";
 
 function App() {
   const [navState, setNavState] = useState(false);
   return (
     <>
-      <main className="bg-black min-h-screen overflow-hidden">
-        <div className="mx-auto">
-          <Navbar />
-          <Home/>
-        </div>
+      <Navbar />
+      <main className="mx-auto bg-black min-h-screen overflow-hidden">
+        <Routes />
       </main>
+      <Footer />
     </>
   );
 }

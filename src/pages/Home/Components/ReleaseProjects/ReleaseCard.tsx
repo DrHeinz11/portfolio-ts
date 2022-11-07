@@ -9,7 +9,7 @@ interface WithKeyProps {
 const ReleaseCard: FC<ReleaseCardData & WithKeyProps> = ({ title, paragraph, route, links, imgUrl, imgAlt }) => {
     return (
         <article className="flex flex-col gap-4 items-center border-white border-4 px-2 py-4 min-h-[400px] md:min-h-[460px] justify-between ">
-            <Link to={`/${route}`}>
+            <Link href={`/${route}`}>
                 <figure className="flex flex-col gap-4 items-center max-w-sm cursor-pointer">
                     <h2 className="font-semibold text-2xl">{`< ${title} />`}</h2>
                     <img className='aspect-video object-cover' src={imgUrl} alt={imgAlt} />

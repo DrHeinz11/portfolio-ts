@@ -1,3 +1,4 @@
+import { Stamp } from "../../../../components";
 import ScrollToExplore from "../../../../components/icon/ScrollToExplore";
 import HeaderLinks from "./HeaderLinks";
 import HeaderTag from "./HeaderTag";
@@ -13,7 +14,9 @@ const Header = () => {
             <h2 className=' text-3xl sm:text-4xl md:text-6xl relative'>Frontend developer!</h2>
           </span>
         </div>
-        <HeaderLinks />
+        <div className="flex flex-row justify-beetwen gap-4">
+          <HeaderLinks direction='col' />
+        </div>
       </div>
       <HeaderTag />
     </header>

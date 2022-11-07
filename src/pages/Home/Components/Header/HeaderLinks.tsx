@@ -1,10 +1,11 @@
 import { Github, Gmail, Linkdin, Stamp } from '../../../../components'
+import { FC } from 'react'
 
-type Props = {}
+type direction = { direction: string }
 
-const HeaderLinks = (props: Props) => {
+const HeaderLinks: FC<direction> = ({ direction }) => {
     return (
-        <div className="flex flex-col gap-4 items-center  ">
+        <div className={`flex flex-${direction} gap-4 items-center`}>
             <a className='p-2' href="https://github.com/DrHeinz11" rel="noopener noreferrer" target="_blank">
                 <Github />
             </a>
