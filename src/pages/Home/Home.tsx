@@ -1,11 +1,11 @@
-import About from "./Components/About/About";
-import Header from "./Components/Header/Header";
+import { About, Header, ReleaseProjects } from "./Components";
 
 const Home = () => {
   return (
     <>
       <Header />
       <About/>
+      <ReleaseProjects/>
     </>
 
   );

@@ -1,3 +1,4 @@
+export { default as Arrow } from './Arrow';
 export { default as Css3 } from './Css3';
 export { default as Figma } from './Figma';
 export { default as Git } from './Git';

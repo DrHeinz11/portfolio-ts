@@ -13,6 +13,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         iconsContainer: "repeat(auto-fit,minmax(100px,1fr))",
+        projectContainer: "repeat(auto-fill,minmax(325px,1fr))",
       },
       dropShadow: {
         'custom': '0 35px 35px rgba(255,255,255 0.5)',}

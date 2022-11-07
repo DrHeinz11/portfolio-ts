@@ -4,7 +4,7 @@ type Props = {}
 
 const HeaderLinks = (props: Props) => {
     return (
-        <div className="flex flex-col md:flex-row gap-4 items-center  ">
+        <div className="flex flex-col gap-4 items-center  ">
             <a className='p-2' href="https://github.com/DrHeinz11" rel="noopener noreferrer" target="_blank">
                 <Github />
             </a>

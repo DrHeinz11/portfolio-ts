@@ -4,12 +4,14 @@ import HeaderTag from "./HeaderTag";
 
 const Header = () => {
   return (
-    <header className="flex justify-center max-w-[550px] md:max-w-none w-full min-h-screen mt-6 gap-4 flex-wrap">
-      <div className="flex flex-row items-center gap-1 px-4 text-4xl w-full h-full text-start text-white font-serif capitalize">
-        <div className='flex flex-col gap-2'>
-          <span className="text-xl font-thin">Hello!</span>
-          <h3 className='md:text-[6rem]'>i'm <span className="text-main">franc</span>,</h3>
-          <h1 className='md:text-[8rem]'>Frontend developer!</h1>
+    <header className="flex justify-center w-full min-h-[80vh] mt-6 flex-wrap content-between md:content-center">
+      <div className="flex flex-row items-center justify-center gap-10 px-4 w-full h-full text-start text-white font-serif capitalize">
+        <div className='flex flex-col gap-4 '>
+          <span className="text-2xl sm:text-2xl md:text-4xl font-thin">Hello!</span>
+          <h3 className='text-3xl sm:text-4xl md:text-6xl'>i'm <span className="text-main">franc</span>,</h3>
+          <span className='before:block before:absolute before:-inset-3 before:-skew-y-1 before:bg-main relative inline-block'>
+            <h2 className=' text-3xl sm:text-4xl md:text-6xl relative'>Frontend developer!</h2>
+          </span>
         </div>
         <HeaderLinks />
       </div>

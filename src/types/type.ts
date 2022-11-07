@@ -3,3 +3,13 @@ export type DataNavigation = Array<{
   navRoute: string;
   id: number;
 }>;
+
+export type ReleaseCardData = {
+  title: string
+  paragraph: string
+  route: string
+  links: { deploy: string ,repository: string }
+  imgUrl: string
+  imgAlt: string
+  id: number
+};

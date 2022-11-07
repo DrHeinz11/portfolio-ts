@@ -6,7 +6,7 @@ const IconsBox: FC<IconBox> = ({ name, children }) => {
     return (
         <div className="flex flex-col gap-2 items-center justify-between p-4 ">
             {children}
-            <h5 className="text-xl font-normal">{name}</h5>
+            <h5 className="text-xl md:text-2xl font-normal">{name}</h5>
         </div>
     )
 }
