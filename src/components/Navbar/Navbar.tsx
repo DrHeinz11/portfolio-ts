@@ -9,7 +9,7 @@ const Navbar: FC = () => {
   return (
     <nav className="flex flex-row gap-10 justify-between items-center p-4 md:p-0 md:py-6 md:px-8 border-b-2 border-black">
       <Link href={"/"}>
-        <div className="">
+        <div className="cursor-pointer">
           <Logo className={'w-16 md:w-20'} />
         </div>
       </Link>

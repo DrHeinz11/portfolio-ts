@@ -13,3 +13,9 @@ export type ReleaseCardData = {
   imgAlt: string
   id: number
 };
+
+export type HandleScrollTop = () => void
+
+export interface WithKeyProps {
+  key: React.Key;
+}

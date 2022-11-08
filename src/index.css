@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: "Neurial Grotesk";
+}
 .font-stroke {
   -webkit-text-stroke: 2px currentColor;
   -webkit-text-fill-color: transparent;
