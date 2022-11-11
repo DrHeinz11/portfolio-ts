@@ -19,7 +19,7 @@ const Footer = (props: Props) => {
         <Stamp />
         <HeaderLinks direction='row' />
       </div>
-      <p className="text-center">© Created for <a href='https://github.com/DrHeinz11' rel='noopener noreferrer' target='_blank' className="cursor-pointer hover:text-main underline">
+      <p className="text-center">© Created for <a href='https://github.com/Franco-Martin11' rel='noopener noreferrer' target='_blank' className="cursor-pointer hover:text-main underline">
         FrancMartin
       </a>
       </p>

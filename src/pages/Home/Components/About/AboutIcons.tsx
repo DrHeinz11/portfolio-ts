@@ -14,7 +14,7 @@ const AboutIcons: FC = (props) => {
         {element.icon}
       </IconsBox>)}
     </div>
-    <h2 className=' font-medium text-2xl sm:text-3xl md:text-4xl capitalize'>My <span className="text-main">tolls</span> are:</h2>
+    <h2 className=' font-serif font-semibold text-xl sm:text-2xl md:text-4xl capitalize mt-4'>My <span className="text-main">tolls</span> are:</h2>
     <div className="grid-cols-iconsContainer grid gap-4">
       {dataToll.map(element => <IconsBox key={element.id} name={element.text}>
         {element.icon}
