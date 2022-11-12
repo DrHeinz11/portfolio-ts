@@ -10,7 +10,7 @@ const Header = () => {
         <div className='flex flex-col gap-4 '>
           <span className="text-2xl sm:text-2xl md:text-4xl font-thin">Hello!</span>
           <h3 className='text-3xl sm:text-4xl md:text-6xl'>i'm <span className="text-main">franco</span>,</h3>
-          <span className='before:block before:absolute before:-inset-3 before:-skew-y-1 before:bg-main relative inline-block'>
+          <span className='before:block z-10 before:absolute before:-inset-3 before:-skew-y-1 before:bg-main relative inline-block'>
             <h2 className=' text-3xl sm:text-4xl md:text-6xl relative'>Frontend developer!</h2>
           </span>
         </div>

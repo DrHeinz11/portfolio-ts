@@ -4,7 +4,9 @@ import HamburgerOption from './HamburguerOption'
 
 const Hamburger: FC = () => {
   const [icon, setIcon] = useState(false);
-  const handleSetIcon = () => setIcon(!icon);
+  const handleSetIcon = () =>
+    setIcon(!icon)
+
 
   return (
     <div onClick={handleSetIcon}>

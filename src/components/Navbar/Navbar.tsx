@@ -22,7 +22,6 @@ const Navbar: FC = () => {
             <NavLinks props={element} key={element.id} />
           ))}
         </nav>
-        <NavLinks props={{ navText: "Contact Me", navRoute: "/contact" }} />
       </div>
       <div className="md:hidden">
         <Hamburger />

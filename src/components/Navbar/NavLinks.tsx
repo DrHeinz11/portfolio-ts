@@ -5,7 +5,7 @@ const NavLinks: FC<navData> = ({ props: { navRoute, navText } }) => {
   return (
     <Link href={navRoute}>
       <a
-        className='text-xl'
+        className='text-xl border-b-[1px] border-transparent hover:border-main '
       >
         {navText}
       </a>
