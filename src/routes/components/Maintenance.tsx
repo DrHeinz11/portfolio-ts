@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReleaseProjects } from '../../pages'
+import { HeaderLinks, ReleaseProjects } from '../../pages'
 
 type Props = {}
 
@@ -11,8 +11,11 @@ const Maintenance = (props: Props) => {
                     <h2 className=' text-white py-1 relative'>
                         Maintenance
                     </h2>
-                </span></h1>
-
+                </span>
+            </h1>
+            <div className="ml-4 my-2 before:block before:absolute before:-inset-2 before:-skew-y-2 before:bg-black relative inline-block">
+                <HeaderLinks direction='row' />
+            </div>
             <ReleaseProjects />
         </div>
     )
