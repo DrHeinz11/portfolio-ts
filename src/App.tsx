@@ -7,8 +7,8 @@ function App() {
   const [navState, setNavState] = useState(false);
   return (
     <>
-      <Navbar />
-      <main className="mx-auto bg-black min-h-screen overflow-hidden">
+      <main className="mx-auto bg-url min-h-screen overflow-hidden">
+        {/* <Navbar /> */}
         <Routes />
       </main>
       <Footer />
